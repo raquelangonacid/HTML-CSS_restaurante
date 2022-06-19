@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="fondo.css">
+</head>
+<body>
+
+    <!-- 1-INICIO -->
+    <header class="barra_menu">
+        <img src="./imágenes/1_home/logo_rest.png" alt="logo_restaurante" class="logo">    
+        <ul>
+            <li>
+                <a href="" class="opciones_menu">Home</a>
+            </li>
+            <li>
+                <a href="#concepto" class="opciones_menu">Concepto</a>
+            </li>
+            <li>
+                <a href="#galeria" class="opciones_menu">Fotos</a>
+            </li>
+            <li>
+                <a href="#carta" class="opciones_menu">Menú</a>
+            </li>
+            <li>
+                <a href="" class="opciones_menu">Blog</a>
+            </li>
+            <li>
+                <a href="" class="opciones_menu">Contacto</a>
+            </li>
+            </ul>
+    </header>    
+    <div class="box box1">
+        <section>
+            <div>
+                <p class="texto_inicio">descubre</p>
+                <h1 class="texto_inicio">OLEUM RESTAURANTE</h1>
+                <p class="texto_inicio">We are open</p>
+            </div>
+        </section>
+    </div>
+<!-- 2-CONCEPTO -->
+    <section class="box box2" id="concepto">
+        <div class="caja-negra">
+            <h3 class="texto_concepto_titulo">CONCEPTO</h3>
+            <p class="texto_concepto_parrafo">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est, accusantium. Est iusto porro earum reiciendis. Perspiciatis repellendus eligendi, rerum dolore, ipsum vitae ipsam numquam, provident obcaecati assumenda amet est fugiat.</p>
+        </div>
+        <img src="./imágenes/2_concepto/lechuga-espanola.jpg" alt="lechuga" class="lechuga">
+        <img src="./imágenes/2_concepto/tostas.png" alt="tostas" class="tostas">
+    </section>
+
+<!-- 3-GALERÍA -->
+    <section class="box box3" id="galeria">
+        <img src="./imágenes/3_galeria/barra.jpg" alt="barra_del _restaurante" class="galeria">
+        <img src="./imágenes/3_galeria/botellas.jpg" alt="botellas_en_mostrador" class="galeria">
+        <img src="./imágenes/3_galeria/cabeza.jpg" alt="cabza_de_buey_de_paja" class="galeria">
+        <img src="./imágenes/3_galeria/carne.jfif" alt="plato_de_carne" class="galeria">
+        <img src="./imágenes/3_galeria/huevos.jpg" alt="plato_de_huevos" class="galeria">
+        <img src="./imágenes/3_galeria/mesa.jpg" alt="mesa_del_restaurante" class="galeria">
+        <img src="./imágenes/3_galeria/planta.jfif" alt="planta_decorativa" class="galeria">
+    </section>
+
+<!-- CARTA -->
+    <section class="box box4" id="carta">
+        <h3 class="texto_carta">CARTA</h3>
+        <div class="carta">
+            <p><strong>BEBIDAS</strong></p>
+            <table>
+                <tr>
+                    <td>Frapuccino de vainilla</td>
+                    <td>3,5 €</td>
+                </tr>
+                <tr>
+                    <td>Zumo de naranja natural</td>
+                    <td>4 €</td>
+                </tr>
+                <tr>
+                    <td>Batido de chocolate blanco</td>
+                    <td>5,20 €</td>
+                </tr>
+                <tr>
+                    <td>Smoothie de piña</td>
+                    <td>4,80 €</td>
+                </tr>
+                <tr>
+                    <td>Infusión de maracuyá</td>
+                    <td>2,50 €</td>
+                </tr>
+                <tr>
+                    <td>Chai latte</td>
+                    <td>3,30 €</td>
+                </tr>
+                <tr>
+                    <td>Agua con gas</td>
+                    <td>2,20 €</td>
+                </tr>
+            </table>
+        </div>
+        <div class="carta">
+            <p><strong>DULCE Y SALADO</strong></p>
+            <table>
+                <tr>
+                    <td>Crepes con dulce de leche</td>
+                    <td>3,8 €</td>
+                </tr>
+                <tr>
+                    <td>Tostadas de tomate y aceite</td>
+                    <td>2 €</td>
+                </tr>
+                <tr>
+                    <td>Tarta de zanahoria</td>
+                    <td>4,20 €</td>
+                </tr>
+                <tr>
+                    <td>Baguete de tortilla de patata</td>
+                    <td>3,80 €</td>
+                </tr>
+                <tr>
+                    <td>Croissant mixto</td>
+                    <td>4,50 €</td>
+                </tr>
+                <tr>
+                    <td>Pain au chocolait</td>
+                    <td>1,80 €</td>
+                </tr>
+                <tr>
+                    <td>Bizcocho de nueces</td>
+                    <td>2,50 €</td>
+                </tr>
+            </table>
+        </div>
+    </section>
+
+    <!-- RESERVAS -->
+    <section class="box box5">
+        <h3 class="texto_reservas">RESERVAS</h3>
+        <form action="">
+            <p class="texto_formulario">Personas</p>
+            <select name="num_pers" id="num_pers">
+                <option value="2">2 personas</option>
+                <option value="3">3 personas</option>
+                <option value="4">4 personas</option>
+                <option value="5">5 personas</option>
+                <option value="6">6 personas</option>
+            </select>
+            <p class="texto_formulario">Seleccione una hora</p>
+            <select name="time" id="time" placeholder="Seleccione una hora">
+                <option value="" disabled>Seleccione una hora</option>
+                <option value="21h">21:00 h</option>
+                <option value="21:30h">21:30 h</option>
+                <option value="22h">22:00 h</option>
+                <option value="22:30h">22:30 h</option>
+            </select>
+            <p class="texto_formulario">Seleccione una mesa</p>
+            <select name="table" id="table" placeholder="Seleccione el tipo de mesa">
+                <option value="" disabled>Seleccione una mesa</option>
+                <option value="exterior">Mesa interior en comedor</option>
+                <option value="interior">Mesa exterior en terraza</option>
+            </select>
+            <div><button class="boton_reserva">RESERVAR</button></div>
+        </form>
+        <p class="form texto_formulario">Si no encuentra disponibilidad, apúntese a esta lista de espera</p>
+        <button class="form boton_reserva">Lista de espera</button>
+        <div>
+        <button class="form boton_reserva">Solicitud de grupo</button>
+        </div>
+        <div class="direccion">
+            <p>OLEUM RESTAURANTE</p>
+            <P>FOOD & DRINKS</P>
+            <P class="texto_direccion">Conde de peñalver 64</P>
+            <P class="texto_direccion">28006 Madrid</P>
+            <P class="texto_direccion">Abrimos de lunes a domingo</P>
+            <P class="texto_direccion">de 07:30 a 1:30</P>
+        </div>
+    </section>
+</body>
+</html>

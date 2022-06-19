@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    padding-inline-start: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* MENÚ DE NAVEGACIÓN */
+.barra_menu {
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+}
+.logo {
+    width: 7%;
+    display: flex;
+    justify-content: flex-start;
+    padding: 5px;
+    margin-left: 150px;
+}
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 40%;
+}
+.opciones_menu {
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 10px;
+}
+
+.opciones_menu:hover {
+    border-bottom: 3px solid goldenrod;
+
+ /*  
+    text-decoration: underline;
+    text-decoration-color: goldenrod;
+    text-decoration-thickness: 3px;
+ */   
+}
+.box {
+    width: 100%;
+    height: 50em;
+}
+
+.box1 {
+    background-image: url(./imágenes/1_home/Santancha-Madrid.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.texto_inicio{
+    font-size: 2em;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+
+/* CONCEPTO */
+.box2 {
+    background-image: url(./imágenes/2_concepto/fondo_hojas.png);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ .caja-negra {
+     background-color: black;
+     width: 30%;
+     padding: 60px; 
+ }
+ .texto_concepto_titulo {
+    color: white;
+    font-size: 2em;
+    font-weight: 300;
+    display: flex;
+    justify-content: center;
+}
+ .texto_concepto_parrafo {
+    color: white;
+    font-size: 1em;
+}
+.lechuga {
+    width: 180px;
+    position: absolute;
+    margin-left: -300px;
+    margin-top: -100px;
+}
+.tostas{
+    width: 320px;
+    position: absolute;
+    margin-left: 200px;
+    margin-top: 150px;
+}
+
+
+/* GALERÍA */
+.box3 {
+    background-image: url(./imágenes/3_galeria/fondo_fotos.jpg);
+    background-size: cover;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.galeria {
+margin: 20px;
+height: 300px;
+}
+
+/* CARTA */
+.box4 {
+    background-image: url(./imágenes/4_carta/fondo_carta.jpg);
+    background-size: cover;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.texto_carta { 
+    color: white;
+    font-weight: 300;
+    font-size: 2rem;
+}
+.carta {
+    background-color: white;
+    width: 35%;
+    height: 600px;
+    margin: 100px 50px;
+    padding: 30px;
+}
+td {
+    padding: 25px;
+}
+
+/* RESERVAS */
+.box5 {
+    background-color: grey;
+    background-size: cover;
+    height: 25em;
+}
+.texto_reservas {
+    color: white;
+    font-size: 2rem;
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+}
+.texto_formulario {
+    color: white;
+    font-size: larger;
+}
+.direccion {
+    position: absolute;
+    display: inline-block;
+    margin-left: 1000px;
+    margin-top: -250px;
+}
+.texto_direccion {
+    color: white;
+    font-size: smaller;
+}
+form, .form{
+    margin-left: 300px;
+}
+.boton_reserva {
+    background-color: white;
+    color: black;
+    width: 600px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
